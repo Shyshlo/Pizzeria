@@ -1,0 +1,364 @@
+body {
+  background-color: rgb(213, 252, 188);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+ }
+h1 {
+  font-family: "Caveat", cursive;
+  font-family: "Dancing Script", cursive;
+  background: linear-gradient(to right, orange, brown);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+h2 {
+  font-family: "Caveat", cursive;
+  font-family: "Dancing Script", cursive;
+  background: linear-gradient(to right, rgb(6, 92, 39), rgb(194, 59, 59));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+
+.counter{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.counter__text-music{
+  display: flex;
+  justify-content: center;
+}
+
+.counter__container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.inner{
+  background-color: rgb(245, 219, 185);
+  height: 200px;
+  width: 150px;
+  margin-top: 50px;
+  border: 3px solid burlywood;
+}
+.block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h5 {
+  font-family: "Caveat", cursive;
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  font-weight: bold;
+  color:
+}
+.new_title{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: bold;
+  background: linear-gradient(to right, rgb(6, 92, 39), rgb(194, 59, 59));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.days, .hours, .minutes, .seconds{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  background: linear-gradient(to right, rgb(6, 92, 39), rgb(194, 59, 59));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.slider {
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.slider_pictures {
+  max-width: 100%;
+}
+
+.btn_slider {
+  background-color: burlywood;
+  color: rgb(213, 252, 188);
+  width: 90px;
+  font-family: "Caveat", cursive;
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  padding: 15px;
+  border-image: linear-gradient(135deg, #12bcb0 20%, #fabe0e 70%);
+  border-image-slice: 1;
+}
+
+.container {
+  display: flex;
+}
+.item {
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  font-family: "Caveat", cursive;
+  font-family: "Dancing Script", cursive;
+  flex: 1;
+  margin: 5px;
+  position: relative;
+}
+h4 {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  background-color: rgb(213, 252, 188);
+  color: brown;
+  opacity: 0;
+}
+.par {
+  position: absolute;
+  top: 60px;
+  left: 30px;
+  background-color: #fff;
+  color: brown;
+  opacity: 0;
+}
+.price {
+  position: absolute;
+  bottom: 40px;
+  left: 30px;
+  background-color: rgb(213, 252, 188);
+  color: brown;
+  opacity: 0;
+}
+
+.increase {
+  flex: 4;
+}
+.increase h4 {
+  font-size: 25px;
+  font-weight: bold;
+  transition: all 1s ease-in;
+  opacity: 1;
+}
+
+.increase .par {
+  font-size: 20px;
+  transition: all 1s ease-in;
+  opacity: 1;
+}
+.increase .price {
+  font-size: 25px;
+  font-weight: bold;
+  transition: all 1s ease-in;
+  opacity: 1;
+}
+
+label {
+  font-family: "Caveat", cursive;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  color: brown;
+}
+.text-input {
+  left: 30px;
+  background-color: rgb(213, 252, 188);
+  color: brown;
+  border: none;
+  padding: 12px 20px;
+}
+.btn {
+  font-family: "Caveat", cursive;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  background-color: burlywood;
+  color: brown;
+  flex: 1;
+  margin-top: 10px;
+  border-image: linear-gradient(135deg, #12bcb0 20%, #fabe0e 70%);
+  border-image-slice: 1;
+  margin-bottom: 50px;
+}
+
+/* дальше adventure game*/
+
+.allcenter{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.pizzaContainerMeat, .pizzaContainerSausage, .pizzaContainerMushroom, .pizzaContainerСheese {
+  display: flex;
+  justify-content: center;     
+}
+
+.pizzaBlock {
+  display: flex;  
+  flex-direction: column;   
+  border: 1px solid burlywood;
+  border-radius: 20px;
+  padding: 30px;  
+  justify-content: flex-start;
+  margin: 30px;
+  width: 200px;    
+}
+
+.pizzaImg1, .pizzaImg2, .pizzaImg3, .pizzaImg4{
+  width: 200px;
+  align-self: center; 
+  border-radius: 10%;   
+}
+
+
+.li1, .li2, .li3, .li4, .li5, .li6, .li7, .li8  {
+  list-style: none; 
+  color: brown;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;  
+}
+.btn5, .btn6, .btn7, .btn8, .btn9, .btn10, .btn11, .btn12, .btnok {
+  font-family: 'Nunito', sans-serif;  
+  background-color: burlywood;
+  border: 1px solid #eaf0f1;
+  padding: 12px;
+  border-radius: 30px;   
+  margin: 7px; 
+  color: rgb(42, 65, 27);
+  font-size: 15px;
+  font-weight: bold;
+}
+.btnok {
+  display: none;
+}
+/*Кнопку ДРУГИЕ ВАРИАНТЫ пока скрыли*/
+
+/*Далее эффект увеличения*/
+
+
+.one {
+  background-image: url(./images/4\ сыра.jpg);
+}
+.two {
+  background-image: url(./images/Гавайская.jpg);
+}
+.three {
+  background-image: url(./images/Деревенкая.jpg);
+}
+.four {
+  background-image: url(./images/Маргарита.jpg);
+}
+.five {
+  background-image: url(./images/Мексиканская.jpg);
+}
+.six {
+  background-image: url(./images/Мясная.jpg);
+}
+.seven {
+  background-image: url(./images/Папперони.jpg);
+}
+.eight {
+  background-image: url(./images/Цезарь\ с\ цыпленком.jpg);
+}
+
+.delivery{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+}
+
+.btn_time{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-bottom: 30px;
+}
+
+.deliveryTime{
+  background: linear-gradient(to right, #12bcb0 20%, #fabe0e);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+a{
+  text-decoration: none;
+  color: brown;
+}
+
+
+
+
+
+
+
+@media all and (max-width: 800px) {
+
+  .container{
+    flex-direction: column;
+    height: 100vh;
+  }
+  .increase h4 {
+    font-size: 15px;
+  }
+  
+  .increase .par {
+    font-size: 15px;
+
+  }
+  .increase .price {
+    font-size: 15px;
+}
+.price {
+  bottom: 10px;
+}
+.slider_pictures{
+  width: 60%;
+}
+h1 {
+  font-size: 20px;
+   }
+.counter__text-music{
+flex-direction: column;
+align-items: center;
+
+}
+.counter__music {
+  top: 50px;
+}
+}
+
+@media all and (max-width: 600px) {
+  h1
+ {
+  font-size: 15px;
+}
+}
+@media all and (max-width: 500px) {
+  .slider_pictures{
+    width: 50%;
+  }
+  h1
+ {
+  font-size: 20px;
+}
+
+.counter__text-music{
+  flex-direction: column;
+  align-items: center;
+  
+  }
+  .counter__music {
+    top: 50px;
+  }
+}
